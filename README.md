@@ -25,4 +25,4 @@ This file needs to be modified:
 
 3、Evaluation
 
-/ultralytics/val.py
+ultralytics/val.py
