@@ -1,0 +1,12 @@
+train: /root/autodl-tmp/project/split_datasets/PCB/train  # train images (relative to 'path') 128 images
+val: /root/autodl-tmp/project/split_datasets/PCB/valid # val images (relative to 'path') 128 images
+test: /root/autodl-tmp/project/split_datasets/PCB/test # test images (optional)
+
+# Classes for DOTA 1.0
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spur
+  5: spurious_copper
