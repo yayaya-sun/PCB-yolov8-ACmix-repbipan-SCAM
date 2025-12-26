@@ -1,4 +1,11 @@
-# PCB-yolov8-ACmix-repbipan-SCAM
+# PCB-yolov8-ACmix-repbipan-SCAM（The The Visual Computer）
+This is the implementation of the paper: "Enhancing Micro-Scale PCB Defect Detection through Hybrid Attention and Multi-Scale Feature Fusion"
+
+## 
+The code is tested on:
+**PyTorch  1.11.0**
+**Python  3.8(ubuntu20.04)**
+CUDA  11.3
 ## Dataset Preparation
 
 The public dataset is available for download at the following link:[PKU-Market-PCB](https://modelscope.cn/datasets/OmniData/PKU-Market-PCB).
