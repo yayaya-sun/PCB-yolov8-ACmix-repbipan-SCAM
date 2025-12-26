@@ -1,4 +1,4 @@
-# PCB-yolov8-ACmix-repbipan-SCAM
+# PCB-yolov8-ACmix-repbipan-SCAM（The Visual Computer）
 This is the implementation of the paper: "Enhancing Micro-Scale PCB Defect Detection through Hybrid Attention and Multi-Scale Feature Fusion"
 
 ## Environment
