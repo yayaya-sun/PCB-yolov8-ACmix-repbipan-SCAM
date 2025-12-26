@@ -1,5 +1,5 @@
 # PCB-yolov8-ACmix-repbipan-SCAM
-1、Dataset Preparation
+##Dataset Preparation
 
 The public dataset is available for download at the following link:https://modelscope.cn/datasets/OmniData/PKU-Market-PCB.
 
@@ -9,7 +9,7 @@ The public dataset is available for download at the following link:https://model
 
 (3)Splitting the dataset using cross-validation.
 
-2、Train
+##Train
 ```bash
 ultralytics/train.py
 ```
@@ -23,6 +23,8 @@ This file needs to be modified:
 
 (4) After Line 13: Training epochs, patience, batch size, optimizer selection, learning rate, etc. (Choose flexibly based on your computer's configuration and training requirements).
 
-3、Evaluation
+##Evaluation
 
+```bash
 ultralytics/val.py
+```
