@@ -28,3 +28,4 @@ This file needs to be modified:
 ```bash
 ultralytics/val.py
 ```
+DOI： 10.5281/zenodo.18058043
