@@ -3,7 +3,7 @@
 
 The public dataset is available for download at the following link:[PKU-Market-PCB](https://modelscope.cn/datasets/OmniData/PKU-Market-PCB).
 
-(1)Using ultralytics/DA.py for data augmentation on original images and corresponding XML annotation files.
+(1)Using ```bashultralytics/DA.py``` for data augmentation on original images and corresponding XML annotation files.
 
 (2)Using ultralytics/xmlConvertTxt.py to convert the augmented XML files into YOLO standard format (TXT files).
 
@@ -12,7 +12,7 @@ The public dataset is available for download at the following link:[PKU-Market-P
 ## Train
 ```bash
 ultralytics/train.py
-```
+
 This file needs to be modified:
 
 (1) Line 8: The YAML file of the model to be trained.
