@@ -12,7 +12,7 @@ The public dataset is available for download at the following link:[PKU-Market-P
 ## Train
 ```bash
 ultralytics/train.py
-
+```
 This file needs to be modified:
 
 (1) Line 8: The YAML file of the model to be trained.
