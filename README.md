@@ -1,7 +1,7 @@
 # PCB-yolov8-ACmix-repbipan-SCAM
 ## Dataset Preparation
 
-The public dataset is available for download at the following link:https://modelscope.cn/datasets/OmniData/PKU-Market-PCB.
+The public dataset is available for download at the following link:[https://modelscope.cn/datasets/OmniData/PKU-Market-PCB].
 
 (1)Using ultralytics/DA.py for data augmentation on original images and corresponding XML annotation files.
 
