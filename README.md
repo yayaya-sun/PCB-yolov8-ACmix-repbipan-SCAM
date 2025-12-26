@@ -31,7 +31,7 @@ The public dataset is available for download at the following link:[PKU-Market-P
 
 ## Train
 ```bash
-ultralytics/train.py
+python ultralytics/train.py
 ```
 This file needs to be modified:
 
@@ -46,6 +46,6 @@ This file needs to be modified:
 ## Evaluation
 
 ```bash
-ultralytics/val.py
+python ultralytics/val.py
 ```
 DOI： 10.5281/zenodo.18058043
