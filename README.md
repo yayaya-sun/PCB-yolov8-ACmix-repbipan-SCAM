@@ -15,7 +15,7 @@ ultralytics/train.py
 ```
 This file needs to be modified:
 
-(1) Line 8: The '''bash YAML''' file of the model to be trained.
+(1) Line 8: The ```bash YAML``` file of the model to be trained.
 
 (2) Line 9: Load the pre-trained model (downloaded from the official website).
 
