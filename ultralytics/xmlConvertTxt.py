@@ -17,7 +17,7 @@ classes = ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spuri
 
 # 3.
 # # 转换文件夹的绝对路径
-data_dir = '/root/autodl-tmp/project/datasets/VOC2007'
+data_dir = '/root/autodl-tmp/project/split_datasets/PCB'
 # 或者 读取当前路径
 #data_dir = getcwd()  # 当前路径
 
