@@ -23,10 +23,8 @@ pip install -r requirements.txt
 
 The public dataset is available for download at the following link:[PKU-Market-PCB](https://modelscope.cn/datasets/OmniData/PKU-Market-PCB).
 
-(1)Using ```bash ultralytics/DA.py``` for data augmentation on original images and corresponding XML annotation files.
-
-(2)Using ```bash ultralytics/xmlConvertTxt.py``` to convert the augmented XML files into YOLO standard format (TXT files).
-
+(1)Using ```bash ultralytics/xmlConvertTxt.py``` to convert the augmented XML files into YOLO standard format (TXT files).
+(2)Using ```bash ultralytics/DA.py``` for data augmentation on original images and corresponding XML annotation files.
 (3)Splitting the dataset using cross-validation.
 
 ## Train
