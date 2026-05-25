@@ -36,23 +36,23 @@ def split_and_copy_dataset(image_dir, label_dir, output_dir, train_ratio=0.8, va
 
     # 定义输出文件夹路径
     train_image_dir = os.path.join(output_dir, 'train', 'images')
-    train_label_dir = os.path.join(output_dir, 'train', 'labels')
+    train_label_dir = os.path.join(output_dir, 'train', 'annotations')
     valid_image_dir = os.path.join(output_dir, 'valid', 'images')
-    valid_label_dir = os.path.join(output_dir, 'valid', 'labels')
+    valid_label_dir = os.path.join(output_dir, 'valid', 'annotations')
     test_image_dir = os.path.join(output_dir, 'test', 'images')
-    test_label_dir = os.path.join(output_dir, 'test', 'labels')
+    test_label_dir = os.path.join(output_dir, 'test', 'annotations')
 
     # 复制图像和标签文件到对应的文件夹
     train_missing_files = copy_files(image_dir, train_image_dir, image_filenames[:train_count], '.jpg')
-    train_missing_files += copy_files(label_dir, train_label_dir, image_filenames[:train_count], '.txt')
+    train_missing_files += copy_files(label_dir, train_label_dir, image_filenames[:train_count], '.xml')
 
     valid_missing_files = copy_files(image_dir, valid_image_dir, image_filenames[train_count:train_count + valid_count],
                                      '.jpg')
     valid_missing_files += copy_files(label_dir, valid_label_dir,
-                                      image_filenames[train_count:train_count + valid_count], '.txt')
+                                      image_filenames[train_count:train_count + valid_count], '.xml')
 
     test_missing_files = copy_files(image_dir, test_image_dir, image_filenames[train_count + valid_count:], '.jpg')
-    test_missing_files += copy_files(label_dir, test_label_dir, image_filenames[train_count + valid_count:], '.txt')
+    test_missing_files += copy_files(label_dir, test_label_dir, image_filenames[train_count + valid_count:], '.xml')
 
     # Print the count of each dataset
     print(f"Train dataset count: {train_count}, Missing files: {train_missing_files}")
