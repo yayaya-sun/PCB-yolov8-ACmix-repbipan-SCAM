@@ -64,8 +64,8 @@ def split_and_copy_dataset(image_dir, label_dir, output_dir, train_ratio=0.8, va
 # image_dir = '../datasets/images'
 # label_dir = '../datasets/labels'
 # output_dir = '../datasets_split'
-image_dir = '/root/autodl-tmp/project/datasets/VOC2007/JPEGImages_DA'
-label_dir = '/root/autodl-tmp/project/datasets/VOC2007/labels_DA'
+image_dir = '/root/autodl-tmp/project/datasets/VOC2007/JPEGImages'
+label_dir = '/root/autodl-tmp/project/datasets/VOC2007/annotations'
 output_dir = '/root/autodl-tmp/project/split_datasets/PCB'
 
 split_and_copy_dataset(image_dir, label_dir, output_dir)
