@@ -514,10 +514,10 @@ if __name__ == '__main__':
 
     # 获取相关参数
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source_img_path', type=str, default=r'/root/autodl-tmp/project/datasets/VOC2007/JPEGImages')
-    parser.add_argument('--source_xml_path', type=str, default=r'/root/autodl-tmp/project/datasets/VOC2007/Annotations')
-    parser.add_argument('--save_img_path', type=str, default=r'/root/autodl-tmp/project/datasets/VOC2007/JPEGImages_DA')
-    parser.add_argument('--save_xml_path', type=str, default=r'/root/autodl-tmp/project/datasets/VOC2007/Annotations_DA')
+    parser.add_argument('--source_img_path', type=str, default=r'/root/autodl-tmp/project/split_datasets/PCB/train/JPEGImages')
+    parser.add_argument('--source_xml_path', type=str, default=r'/root/autodl-tmp/project/split_datasets/PCB/train/Annotations')
+    parser.add_argument('--save_img_path', type=str, default=r'/root/autodl-tmp/project/split_datasets/PCB/train/VOC2007/JPEGImages_DA')
+    parser.add_argument('--save_xml_path', type=str, default=r'/root/autodl-tmp/project/split_datasets/PCB/train/Annotations_DA')
     args = parser.parse_args()
     source_img_path = args.source_img_path  # 图片原始位置
     source_xml_path = args.source_xml_path  # xml的原始位置
