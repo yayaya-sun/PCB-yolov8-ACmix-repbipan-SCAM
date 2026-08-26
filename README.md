@@ -1,12 +1,12 @@
 # PCB-yolov8-ACmix-repbipan-SCAM（The Visual Computer）
-This is the implementation of the paper: "Enhancing Micro-Scale PCB Defect Detection through Hybrid Attention and Multi-Scale Feature Fusion"
+This is the implementation of the paper: "Lightweight Micro-Scale PCB Defect Detection via Hybrid Attention and Bidirectional Cross-Scale Feature Fusion"
 
 ## Environment
 **The code is tested on:**
 
- - PyTorch  1.11.0
+ - PyTorch  2.4.1
  - Python  3.8(ubuntu20.04)
- - CUDA  11.3
+ - CUDA  11.8
 
 **Create a virtual environment and activate it.**
 ```bash
